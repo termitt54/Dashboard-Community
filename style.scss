@@ -1,0 +1,115 @@
+@import "./styles/fonts.scss";
+@import "./styles/variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+
+  @media all and (max-width: 1710px) {
+    font-size: 9px;
+  }
+
+  @media all and (max-width: 1536px) {
+    font-size: 8px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Proxima Nova", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 100%;
+  max-width: 192rem;
+  height: 275.7rem;
+  background-color: $fon;
+}
+
+a {
+  font-size: $font-size-3;
+  text-decoration: none;
+  color: rgba($primary, 0.5);
+}
+
+.title {
+  font-size: $font-size-4;
+  font-weight: 700;
+  color: $primary;
+}
+
+.subtitle {
+  font-size: $font-size-4;
+  font-weight: 600;
+  color: $primary;
+}
+
+.logo {
+  font-size: $font-size-6;
+  color: $logo;
+}
+
+.nav {
+  display: flex;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    height: 2.4rem;
+  }
+}
+
+.icon {
+  width: 100%;
+  max-width: 2rem;
+  height: 1.8rem;
+}
+
+.search-form {
+  width: 100%;
+  font-size: $font-size-2;
+  border: none;
+  color: $primary;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.arrow-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  width: 100%;
+  max-width: 2.4rem;
+  height: 2.4rem;
+
+  background-color: transparent;
+}
+
+.content {
+  display: flex;
+}
+
+.price {
+  font-size: $font-size-3;
+  color: $primary;
+  font-weight: 600;
+}
+
+@import "./styles/btn.scss";
+@import "./styles/header.scss";
+@import "./styles/sidebar.scss";
+@import "./styles/main.scss";
+@import "./styles/card.scss";
+@import "./styles/table.scss";
+@import "./styles/status.scss";
+@import "./styles/graph.scss";

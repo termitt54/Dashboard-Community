@@ -1,0 +1,60 @@
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 13.4rem;
+  height: 3.4rem;
+  font-size: $font-size-3;
+  font-weight: 600;
+
+  border-radius: 0.5rem;
+  margin: auto;
+
+  &_fulfilled {
+    color: $blue;
+    background-color: rgba($blue, 0.1);
+  }
+
+  &_paid {
+    color: $light-green;
+    background-color: rgba($light-green, 0.1);
+  }
+
+  &_cancelled {
+    color: $red;
+    background-color: rgba($red, 0.1);
+  }
+
+  &_PartiallyPaid {
+    color: $light-purple;
+    background-color: rgba($light-purple, 0.1);
+  }
+
+  &_PartiallyFulfilled {
+    color: $light-blue;
+    background-color: rgba($light-blue, 0.1);
+  }
+
+  &_refunded {
+    color: $dark-gray;
+    background-color: rgba($black, 0.1);
+  }
+
+  &_unfulfilled,
+  &_pending {
+    color: $yellow;
+    background-color: rgba($yellow, 0.1);
+  }
+
+  &_draft {
+    color: $default-gray;
+    background-color: rgba($default-gray, 0.1);
+  }
+
+  &_PartiallyRefunded {
+    color: $primary;
+    background-color: rgba($primary, 0.1);
+  }
+}

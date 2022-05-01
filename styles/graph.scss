@@ -1,0 +1,24 @@
+.graph {
+  position: absolute;
+  bottom: 5rem;
+  left: 0;
+
+  width: 100%;
+  max-width: 28.9rem;
+
+  &_first-week {
+    height: 52rem;
+  }
+
+  &_second-week {
+      height: 32rem;
+  }
+
+  &_third-week {
+      height: 24.5rem;
+  }
+
+  &_fourth-week {
+      height: 51.5rem;
+  }
+}

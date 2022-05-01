@@ -1,0 +1,76 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  width: 100%;
+  font-size: $font-size-3;
+  font-weight: 600;
+  color: $primary;
+  border: none;
+
+  background-color: $secondary;
+
+  &_arrow {
+    background-color: transparent;
+    max-width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  &_main {
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: $light;
+
+    top: 23.1rem;
+    right: 0;
+
+    width: 5.4rem;
+    height: 6rem;
+
+    padding: 0.5rem 0.8rem 0.7rem;
+    background-color: $blue;
+    border-radius: 0.3rem 0 0 0.3rem;
+
+    .btn__icon {
+      margin-bottom: 0.2rem;
+    }
+  }
+
+  &_edit {
+    max-width: 13rem;
+    min-height: 4.3rem;
+    margin-right: 1.8rem;
+
+    padding: 1.3rem 1.6rem;
+    border-radius: 2.15rem;
+  }
+
+  &_filter {
+    max-width: 11rem;
+    min-height: 4.3rem;
+
+    background-color: transparent;
+  }
+
+  &_small {
+    max-width: 4.3rem;
+    height: 4.1rem;
+
+    border-radius: 0.5rem;
+    margin-left: auto;
+  }
+
+  &_card {
+    max-width: 6.3rem;
+    min-height: 2.4rem;
+
+    margin-left: auto;
+    background-color: transparent;
+  }
+}

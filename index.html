@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="logo header__logo">Logo</div>
+
+            <nav class="nav header__nav">
+                <a href="#" class="nav__item"><img src="./assets/icon/box-1.svg" alt="" class="icon header__icon"> Sales Orders</a>
+                <a href="#" class="nav__item"><img src="./assets/icon/box-2.svg" alt="" class="icon header__icon"> Purchase Orders</a>
+                <a href="#" class="nav__item"><img src="./assets/icon/product-1.svg" alt="" class="icon header__icon"> Products</a>
+            </nav>
+
+            <div class="header__task">
+                <a href="#" class="header__task-link"><img src="./assets/icon/task.svg" alt="" class="icon header__icon">Task list</a>
+                <div class="header__task-progress">
+                    <div class="header__task-progress-percent">33%</div>
+                </div>
+                <div class="header__task-info">Task has done on 33%</div>
+            </div>
+
+            <div class="header__search">
+                <input type="search" name="" id="" placeholder="Search" class="search-form header__search-form">
+                <div class="arrow-field arrow-field_header__search"><img src="./assets/icon/arrow.svg" alt="" class="header__search-arrow"></div>
+                <img src="./assets/icon/lupa.svg" alt="" class="header__search-icon">
+            </div>
+
+            <a href="#" class="header__notify">
+                <img src="./assets/icon/bell.svg" alt="" class="header__notify-icon">
+            </a>
+
+            <a href="#" class="header__profile">
+                <img src="./assets/img/photo.jpg" alt="" class="header__profile-photo">
+                <div class="header__profile-name">Mohammad Hosen</div>
+                <img src="./assets/icon/arrow.svg" alt="" class="header__profile-icon">
+            </a>
+        </header>
+
+        <div class="content">
+            <aside class="sidebar">
+                <button class="btn btn_sidebar">
+                    <img src="./assets/icon/sidebar-button.svg" alt="" class="btn_icon">
+                </button>
+
+                <nav class="nav sidebar__nav">
+                    <a href="#" class="nav__item nav__item_active">
+                        <img src="./assets/icon/dashboadr.svg" alt="" class="icon sidebar__icon">
+                        Dashboard
+                    </a>
+                    <a href="#" class="nav__item">
+                        <img src="./assets/icon/Inventory.svg" alt="" class="icon sidebar__icon">
+                        Inventory
+                        <div class="arrow-field arrow-field_nav__item"><img src="./assets/icon/arrow.svg" alt="" class="nav__item-arrow"></div>
+                    </a>
+                    <a href="#" class="nav__item">
+                        <img src="./assets/icon/crm.svg" alt="" class="icon sidebar__icon">
+                        CRM
+                        <div class="arrow-field arrow-field_nav__item"><img src="./assets/icon/arrow.svg" alt="" class="nav__item-arrow"></div>
+                    </a>
+                    <a href="#" class="nav__item">
+                        <img src="./assets/icon/orders.svg" alt="" class="icon sidebar__icon">
+                        Orders
+                        <div class="arrow-field arrow-field_nav__item"><img src="./assets/icon/arrow.svg" alt="" class="nav__item-arrow"></div>
+                    </a>
+                    <a href="#" class="nav__item">
+                        <img src="./assets/icon/stocks.svg" alt="" class="icon sidebar__icon">
+                        Stocks
+                        <div class="arrow-field arrow-field_nav__item"><img src="./assets/icon/arrow.svg" alt="" class="nav__item-arrow"></div>
+                    </a>
+                    <a href="#" class="nav__item">
+                        <img src="./assets/icon/reports.svg" alt="" class="icon sidebar__icon">
+                        Reports
+                        <div class="arrow-field arrow-field_nav__item"><img src="./assets/icon/arrow.svg" alt="" class="nav__item-arrow"></div>
+                    </a>
+                    <a href="#" class="nav__item">
+                        <img src="./assets/icon/automation.svg" alt="" class="icon sidebar__icon">
+                        Automation
+                    </a>
+                    <a href="#" class="nav__item">
+                        <img src="./assets/icon/apps.svg" alt="" class="icon sidebar__icon">
+                        My Apps
+                    </a>
+                    <a href="#" class="nav__item">
+                        <img src="./assets/icon/available.svg" alt="" class="icon sidebar__icon">
+                        Available Apps
+                    </a>
+                    <a href="#" class="nav__item">
+                        <img src="./assets/icon/settings.svg" alt="" class="icon sidebar__icon">
+                        Settings
+                        <div class="arrow-field arrow-field_nav__item"><img src="./assets/icon/arrow.svg" alt="" class="nav__item-arrow"></div>
+                    </a>
+                </nav>
+            </aside>
+
+            <div class="main">
+                <div class="btn btn_main"><img src="./assets/icon/sidebar-button.svg" alt="" class="btn__icon"> Quick links</div>
+
+                <div class="main__header">
+                    <div class="title title_main">Sales Activity for this week</div>
+
+                    <div class="main__header-button">
+                        <button class="btn btn_edit"><img src="./assets/icon/editor.svg" alt="" class="btn_icon"> Edit layout</button>
+                        <button class="btn btn_filter">Filter by year :</button>
+                    </div>
+                </div>
+
+                <div class="main__cards">
+                    <div class="main__cards-field">
+                        <div class="card card_mini card_ToBeFulfilled">
+                            <div class="card__header">
+                                <div class="card__header-text">To be Fulfilled</div>
+                                <img src="./assets/icon/invoiced.svg" alt="" class="card__header-icon">
+                            </div>
+
+                            <div class="card__count">56</div>
+
+                            <div class="card__bottom">
+                                <div class="card__bottom-text">Quality</div>
+                                <button class="btn btn_arrow"><img src="./assets/icon/arrow-right.svg" alt="" class="card__bottom-icon"></button>
+                            </div>
+                        </div>
+
+                        <div class="card card_mini card_ToBeInvoiced">
+                            <div class="card__header">
+                                <div class="card__header-text">To be Invoiced</div>
+                                <img src="./assets/icon/fulfilled.svg" alt="" class="card__header-icon">
+                            </div>
+
+                            <div class="card__count">24</div>
+
+                            <div class="card__bottom">
+                                <div class="card__bottom-text">Quality</div>
+                            </div>
+                        </div>
+
+                        <div class="card card_mini card_Completed">
+                            <div class="card__header">
+                                <div class="card__header-text">Completed</div>
+                                <img src="./assets/icon/completed.svg" alt="" class="card__header-icon">
+                            </div>
+
+                            <div class="card__count">12</div>
+
+                            <div class="card__bottom">
+                                <div class="card__bottom-text">Quality</div>
+                                <button class="btn btn_arrow"><img src="./assets/icon/arrow-right.svg" alt="" class="card__bottom-icon"></button>
+                            </div>
+                        </div>
+
+                        <div class="card card_mini card_AssignedToMe">
+                            <div class="card__header">
+                                <div class="card__header-text">Assigned to me</div>
+                                <img src="./assets/icon/asigned.svg" alt="" class="card__header-icon">
+                            </div>
+
+                            <div class="card__count">3</div>
+
+                            <div class="card__bottom">
+                                <div class="card__bottom-text">Quality</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__cards-field">
+                        <div class="card card_small">
+                            <div class="card__header">
+                                <div class="card__header-picture card__header-picture_home"><img src="./assets/icon/home.svg" alt="" class="card__header-image"></div>
+                                <div class="card__header-text">Out of stock products</div>
+                            </div>
+
+                            <div class="card__bottom">
+                                <div class="card__bottom-count">89.00</div>
+                                <button class="btn btn_small"><img src="./assets/icon/check-right.svg" alt="" class="card__bottom-arrow"></button>
+                            </div>
+                        </div>
+
+                        <div class="card card_small">
+                            <div class="card__header">
+                                <div class="card__header-picture card__header-picture_product"><img src="./assets/icon/product-2.svg" alt="" class="card__header-image"></div>
+                                <div class="card__header-text">All products</div>
+                            </div>
+
+                            <div class="card__bottom">
+                                <div class="card__bottom-count">267.00</div>
+                                <button class="btn btn_small"><img src="./assets/icon/check-right.svg" alt="" class="card__bottom-arrow"></button>
+                            </div>
+                        </div>
+
+                        <div class="card card_small">
+                            <div class="card__header">
+                                <div class="card__header-picture card__header-picture_archived"><img src="./assets/icon/archived.svg" alt="" class="card__header-image"></div>
+                                <div class="card__header-text">Archived products</div>
+                            </div>
+
+                            <div class="card__bottom">
+                                <div class="card__bottom-count">2.00</div>
+                                <button class="btn btn_small"><img src="./assets/icon/check-right.svg" alt="" class="card__bottom-arrow"></button>
+                            </div>
+                        </div>
+
+                        <div class="card card_small">
+                            <div class="card__header">
+                                <div class="card__header-picture card__header-picture_hand"><img src="./assets/icon/hand.svg" alt="" class="card__header-image"></div>
+                                <div class="card__header-text">Quantity On Hand</div>
+                            </div>
+
+                            <div class="card__bottom">
+                                <div class="card__bottom-count">684.00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__cards-field">
+                        <div class="card card_latest-sales">
+                            <div class="card__header">
+                                <div class="title title_card">Latest sales orders - By sales channels</div>
+                                <button class="btn btn_card">Ecwid <img src="./assets/icon/arrow.svg" alt="" class="card__header-arrow"></button>
+                            </div>
+
+                            <div class="card__middle">
+                                <div class="card__search">
+                                    <label for="search1" class="card__search-label">Search</label>
+                                    <input type="search" name="" value="S000083" id="search1" class="search-form search-form_card">
+                                    <img src="./assets/icon/lupa.svg" alt="" class="search-form__icon">
+                                </div>
+
+                                <div class="filter filter_card">
+                                    <a href="#" class="filter__item filter__item_active">All</a>
+                                    <a href="#" class="filter__item">Open</a>
+                                    <a href="#" class="filter__item">Completed</a>
+                                    <a href="#" class="filter__item">Fulfilled</a>
+                                </div>
+                            </div>
+
+                            <div class="card__table">
+                                <table class="table table_card">
+                                    <tr class="table__name">
+                                        <th class="table__name-item">Order ID</th>
+                                        <th class="table__name-item">Customer</th>
+                                        <th class="table__name-item">Fulfillment status</th>
+                                        <th class="table__name-item">Payment status</th>
+                                        <th class="table__name-item">Total</th>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-id">
+                                            <a href="#" class="table__column-id-link">S000083</a>
+                                        </td>
+                                        <td class="table__column-customer">Ernest Gaboyan</td>
+                                        <td class="table__column-fulfillment">
+                                            <div class="status status_fulfilled">Fulfilled</div>
+                                        </td>
+                                        <td class="table__column-payment">
+                                            <div class="status status_paid">Paid</div>
+                                        </td>
+                                        <td class="table__column-total">
+                                            <div class="price price_table__column-total">$6 000</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-id">
+                                            <a href="#" class="table__column-id-link">S000083</a>
+                                        </td>
+                                        <td class="table__column-customer">Ernest Gaboyan</td>
+                                        <td class="table__column-fulfillment">
+                                            <div class="status status_cancelled">Cancelled</div>
+                                        </td>
+                                        <td class="table__column-payment">
+                                            <div class="status status_PartiallyPaid">Partially Paid</div>
+                                        </td>
+                                        <td class="table__column-total">
+                                            <div class="price price_table__column-total">$12 000</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-id">
+                                            <a href="#" class="table__column-id-link">S000083</a>
+                                        </td>
+                                        <td class="table__column-customer">Ernest Gaboyan</td>
+                                        <td class="table__column-fulfillment">
+                                            <div class="status status_PartiallyFulfilled">Partially Fulfilled</div>
+                                        </td>
+                                        <td class="table__column-payment">
+                                            <div class="status status_refunded">Refunded</div>
+                                        </td>
+                                        <td class="table__column-total">
+                                            <div class="price price_table__column-total">$200</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-id">
+                                            <a href="#" class="table__column-id-link">S000083</a>
+                                        </td>
+                                        <td class="table__column-customer">Ernest Gaboyan</td>
+                                        <td class="table__column-fulfillment">
+                                            <div class="status status_unfulfilled">Unfulfilled</div>
+                                        </td>
+                                        <td class="table__column-payment">
+                                            <div class="status status_pending">Pending</div>
+                                        </td>
+                                        <td class="table__column-total">
+                                            <div class="price price_table__column-total">$10</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-id">
+                                            <a href="#" class="table__column-id-link">S000083</a>
+                                        </td>
+                                        <td class="table__column-customer">Ernest Gaboyan</td>
+                                        <td class="table__column-fulfillment">
+                                            <div class="status status_draft">Draft</div>
+                                        </td>
+                                        <td class="table__column-payment">
+                                            <div class="status status_PartiallyRefunded">Partially Refunded</div>
+                                        </td>
+                                        <td class="table__column-total">
+                                            <div class="price price_table__column-total">$3 000</div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="card card_medium">
+                            <div class="title title_card">Purchase orders</div>
+                            <div class="card__info">
+                                <div class="card__info-recieved">
+                                    <div class="card__info-recieved-text">Received orders</div>
+                                    <div class="price price_card__info-recieved">$20</div>
+                                </div>
+                                <div class="card__info-cost">
+                                    <div class="card__info-cost-text">Total cost (USD)</div>
+                                    <div class="price price_card__info-cost">$4600</div>
+                                </div>
+                            </div>
+
+                            <div class="subtitle subtitle_card">Incoming purchase orders</div>
+
+                            <div class="order order_card">
+                                <div class="order__item">
+                                    <div class="order__item-color order__item-color_orange"></div>
+                                    <div class="order__item-info">
+                                        <a href="#" class="order__item-info-id">#P00005</a>
+                                        <div class="order__item-info-customer">Ernest Gaboyan</div>
+                                    </div>
+                                    <div class="price price_order__item">$12 000</div>
+                                </div>
+                                <div class="order__item">
+                                    <div class="order__item-color order__item-color_green"></div>
+                                    <div class="order__item-info">
+                                        <a href="#" class="order__item-info-id">#P00006</a>
+                                        <div class="order__item-info-customer">Ernest Gaboyan</div>
+                                    </div>
+                                    <div class="price price_order__item">$1000</div>
+                                </div>
+                                <div class="order__item">
+                                    <div class="order__item-color order__item-color_blue"></div>
+                                    <div class="order__item-info">
+                                        <a href="#" class="order__item-info-id">#P00006</a>
+                                        <div class="order__item-info-customer">Ernest Gaboyan</div>
+                                    </div>
+                                    <div class="price price_order__item">$200</div>
+                                </div>
+                                <div class="order__item">
+                                    <div class="order__item-color order__item-color_red"></div>
+                                    <div class="order__item-info">
+                                        <a href="#" class="order__item-info-id">#P00006</a>
+                                        <div class="order__item-info-customer">Ernest Gaboyan</div>
+                                    </div>
+                                    <div class="price price_order__item">$650</div>
+                                </div>
+                                <div class="order__item">
+                                    <div class="order__item-color order__item-color_purle"></div>
+                                    <div class="order__item-info">
+                                        <a href="#" class="order__item-info-id">#P00006</a>
+                                        <div class="order__item-info-customer">Ernest Gaboyan</div>
+                                    </div>
+                                    <div class="price price_order__item">$10 450</div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="card__link">View all</a>
+                        </div>
+
+                        <div class="card card_medium">
+                            <div class="title title_card">Top selling products</div>
+
+                            <div class="list list_card">
+                                <a href="#" class="list__item">
+                                    <img src="./assets/img/t-shirt.png" alt="" class="list__item-picture">
+                                    <div class="list__item-name">T-Shirt for men</div>
+                                    <div class="price price_list__item">$50</div>
+                                </a>
+                                <a href="#" class="list__item">
+                                    <img src="./assets/img/t-shirt.png" alt="" class="list__item-picture">
+                                    <div class="list__item-name">T-Shirt for men</div>
+                                    <div class="price price_list__item">$50</div>
+                                </a>
+                                <a href="#" class="list__item">
+                                    <img src="./assets/img/dress.png" alt="" class="list__item-picture">
+                                    <div class="list__item-name">Bucket hat in washed green</div>
+                                    <div class="price price_list__item">$250</div>
+                                </a>
+                                <a href="#" class="list__item">
+                                    <img src="./assets/img/dress.png" alt="" class="list__item-picture">
+                                    <div class="list__item-name">Bucket hat in washed green</div>
+                                    <div class="price price_list__item">$250</div>
+                                </a>
+                                <a href="#" class="list__item">
+                                    <img src="./assets/img/boots.png" alt="" class="list__item-picture">
+                                    <div class="list__item-name">Adidas Originals Forum 84</div>
+                                    <div class="price price_list__item">$80</div>
+                                </a>
+                                <a href="#" class="list__item">
+                                    <img src="./assets/img/boots.png" alt="" class="list__item-picture">
+                                    <div class="list__item-name">Adidas Originals Forum 84</div>
+                                    <div class="price price_list__item">$80</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__cards-field">
+                        <div class="card card_graph">
+                            <div class="card__header">
+                                <div class="title title_card">Sales order summary</div>
+
+                                <div class="date date_card">
+                                    <div class="date__year">
+                                        <button class="btn btn_arrow"><img src="./assets/icon/arrow-left.svg" alt="" class="date__arrow"></button>
+                                        <div class="date__year-text">July 2021</div>
+                                        <img src="./assets/icon/calendar.svg" alt="" class="date__year-icon">
+                                        <button class="btn btn_arrow"><img src="./assets/icon/check-right.svg" alt="" class="date__arrow"></button>
+                                    </div>
+                                    <div class="date__month">
+                                        <div class="date__month-text">Month</div>
+                                        <button class="btn btn_arrow"><img src="./assets/icon/arrow.svg" alt="" class="date__arrow"></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card__row">
+                                <div class="card__row-item">14000</div>
+                                <div class="card__row-item">12000</div>
+                                <div class="card__row-item">10000</div>
+                                <div class="card__row-item">8000</div>
+                                <div class="card__row-item">6000</div>
+                                <div class="card__row-item">4000</div>
+                                <div class="card__row-item">2000</div>
+                                <div class="card__row-item">0</div>
+                            </div>
+
+                            <div class="card__column">
+                                <div class="card__column-item">
+                                    <img src="./assets/img/graph-1.png" alt="" class="graph graph_first-week">
+                                    <div class="card__column-item-data">01-07</div> 
+                                </div>
+                                <div class="card__column-item">
+                                    <img src="./assets/img/graph-2.png" alt="" class="graph graph_second-week">
+                                    <div class="card__column-item-data">08-15</div> 
+                                </div>
+                                <div class="card__column-item">
+                                    <img src="./assets/img/graph-3.png" alt="" class="graph graph_third-week">
+                                    <div class="card__column-item-data">16-23</div> 
+                                </div>
+                                <div class="card__column-item">
+                                    <img src="./assets/img/graph-4.png" alt="" class="graph graph_fourth-week">
+                                    <div class="card__column-item-data">24-30</div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__cards-field">
+                        <div class="card card_default">
+                            <div class="card__header">
+                                <div class="title title_card">Items At Low Quantity</div>
+                                <div class="card__search">
+                                    <input type="search" placeholder="Search" name="" id="search2" class="search-form search-form_card">
+                                    <img src="./assets/icon/lupa.svg" alt="" class="search-form__icon">
+                                </div>
+                            </div>
+
+                            <div class="card__table">
+                                <table class="table table_card">
+                                    <tr class="table__name">
+                                        <th class="table__name-item">SKU</th>
+                                        <th class="table__name-item">Inventory</th>
+                                        <th class="table__name-item">Incoming PO</th>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-sku">
+                                            <a href="#" class="table__column-sku-link">ZG011AQA</a>
+                                        </td>
+                                        <td class="table__column-inventory">Summer shoe</td>
+                                        <td class="table__column-incoming">2</td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-sku">
+                                            <a href="#" class="table__column-sku-link">ZG011AQA</a>
+                                        </td>
+                                        <td class="table__column-inventory">Summer shoe</td>
+                                        <td class="table__column-incoming">2</td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-sku">
+                                            <a href="#" class="table__column-sku-link">ZG011AQA</a>
+                                        </td>
+                                        <td class="table__column-inventory">Summer shoe</td>
+                                        <td class="table__column-incoming">2</td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-sku">
+                                            <a href="#" class="table__column-sku-link">ZG011AQA</a>
+                                        </td>
+                                        <td class="table__column-inventory">Summer shoe</td>
+                                        <td class="table__column-incoming">2</td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-sku">
+                                            <a href="#" class="table__column-sku-link">ZG011AQA</a>
+                                        </td>
+                                        <td class="table__column-inventory">Summer shoe</td>
+                                        <td class="table__column-incoming">2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="card card_default">
+                            <div class="card__header">
+                                <div class="title title_card">Items Out Of Stock</div>
+                                <div class="card__search">
+                                    <input type="search" placeholder="Search" name="" id="search3" class="search-form search-form_card">
+                                    <img src="./assets/icon/lupa.svg" alt="" class="search-form__icon">
+                                </div>
+                            </div>
+                            <div class="card__table">
+                                <table class="table table_card">
+                                    <tr class="table__name">
+                                        <th class="table__name-item">SKU</th>
+                                        <th class="table__name-item">Inventory</th>
+                                        <th class="table__name-item">Incoming PO</th>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-sku">
+                                            <a href="#" class="table__column-sku-link">ZG011AQA</a>
+                                        </td>
+                                        <td class="table__column-inventory">Summer shoe</td>
+                                        <td class="table__column-incoming">2</td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-sku">
+                                            <a href="#" class="table__column-sku-link">ZG011AQA</a>
+                                        </td>
+                                        <td class="table__column-inventory">Summer shoe</td>
+                                        <td class="table__column-incoming">2</td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-sku">
+                                            <a href="#" class="table__column-sku-link">ZG011AQA</a>
+                                        </td>
+                                        <td class="table__column-inventory">Summer shoe</td>
+                                        <td class="table__column-incoming">2</td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-sku">
+                                            <a href="#" class="table__column-sku-link">ZG011AQA</a>
+                                        </td>
+                                        <td class="table__column-inventory">Summer shoe</td>
+                                        <td class="table__column-incoming">2</td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-sku">
+                                            <a href="#" class="table__column-sku-link">ZG011AQA</a>
+                                        </td>
+                                        <td class="table__column-inventory">Summer shoe</td>
+                                        <td class="table__column-incoming">2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__cards-field">
+                        <div class="card card_standart">
+                            <div class="card__header">
+                                <div class="title title_card">Amazon vendor order processing</div>
+                                <div class="card__search">
+                                    <input type="search" placeholder="Search" name="" id="search3" class="search-form search-form_card">
+                                    <img src="./assets/icon/lupa.svg" alt="" class="search-form__icon">
+                                </div>
+                            </div>
+                            <div class="card__table">
+                                <table class="table table_card">
+                                    <tr class="table__name">
+                                        <th class="table__name-item">Order ID</th>
+                                        <th class="table__name-item">Status</th>
+                                        <th class="table__name-item">SKU Quantity</th>
+                                        <th class="table__name-item">Item Quantity</th>
+                                        <th class="table__name-item">Order Value</th>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-id">
+                                            <a href="#" class="table__column-id-link">#16512</a>
+                                        </td>
+                                        <td class="table__column-status">
+                                            <div class="status status_pending">Pending</div>
+                                        </td>
+                                        <td class="table__column-sku">2</td>
+                                        <td class="table__column-item">350</td>
+                                        <td class="table__column-value">
+                                            <div class="price price_table__column-value">$3595.79</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-id">
+                                            <a href="#" class="table__column-id-link">#16512</a>
+                                        </td>
+                                        <td class="table__column-status">
+                                            <div class="status status_pending">Pending</div>
+                                        </td>
+                                        <td class="table__column-sku">2</td>
+                                        <td class="table__column-item">350</td>
+                                        <td class="table__column-value">
+                                            <div class="price price_table__column-value">$3595.79</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-id">
+                                            <a href="#" class="table__column-id-link">#16512</a>
+                                        </td>
+                                        <td class="table__column-status">
+                                            <div class="status status_pending">Pending</div>
+                                        </td>
+                                        <td class="table__column-sku">2</td>
+                                        <td class="table__column-item">350</td>
+                                        <td class="table__column-value">
+                                            <div class="price price_table__column-value">$3595.79</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-id">
+                                            <a href="#" class="table__column-id-link">#16512</a>
+                                        </td>
+                                        <td class="table__column-status">
+                                            <div class="status status_pending">Pending</div>
+                                        </td>
+                                        <td class="table__column-sku">2</td>
+                                        <td class="table__column-item">350</td>
+                                        <td class="table__column-value">
+                                            <div class="price price_table__column-value">$3595.79</div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="table__column">
+                                        <td class="table__column-id">
+                                            <a href="#" class="table__column-id-link">#16512</a>
+                                        </td>
+                                        <td class="table__column-status">
+                                            <div class="status status_pending">Pending</div>
+                                        </td>
+                                        <td class="table__column-sku">2</td>
+                                        <td class="table__column-item">350</td>
+                                        <td class="table__column-value">
+                                            <div class="price price_table__column-value">$3595.79</div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
