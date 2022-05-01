@@ -863,6 +863,9 @@ a {
 .card_standart .table__name {
   text-transform: uppercase;
 }
+.card_standart .table__name-item {
+  width: 20%;
+}
 
 .table {
   border-collapse: collapse;
